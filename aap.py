@@ -5,7 +5,7 @@ import sklearn
 import pandas as pd
 import numpy as np
 
-app = Flask(__name__,template_folder='template')
+app = Flask(__name__)
 model = pickle.load(open("cred_rf_final.pkl", "rb"))
 
 
